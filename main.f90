@@ -1,7 +1,7 @@
 program main
 
-    use Definitions
-    use func
+    use definitions
+    use functions
 
     pi=4.*atan2(1.,1.)
     k=2.*pi

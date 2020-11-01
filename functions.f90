@@ -1,6 +1,6 @@
-module Func
+module functions
 
-    use Definitions
+    use definitions
 
 contains
 
