@@ -1,6 +1,6 @@
 # IceNet.AntennaImpedanceMatrix
 
-This is version 1.00 of the source code
+This is 1.0.0 version of the source code
 Modified Source code allow to generate Coupling Impedance Matrix of the custom shape Antenna !!!
 
 Valid Matrix is used to approximate complex IQ samples in Electromagnetic Computation Process
