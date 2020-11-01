@@ -29,7 +29,7 @@ To execute:
 
 	./single_impedace_element
 
-Single impedance element output:
+Execution should give one complex value from Entire Matrix for a choosen Antenna Surface Shape !!!
 
 	0.3182E-02 +j -0.2432E-02
 
