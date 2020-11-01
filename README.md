@@ -16,4 +16,17 @@ Mixed Potentials are used to Approximate values for Electric currents induced on
   2. Induced Currents can be calculated when E-Field hits Antenna surface
   3. Valid IQ samples can be derived from the Over All Computation !!!
 
+# ====================================================================
+
+This code allow you to calculate single element of Coupling Impedane Matrix
+
+To compile:
+
+	gfortran -c definitions.f90 functions.f90
+	gfortran  definitions.o functions.o main.f90 -o single_impedace_element
+
+To execute:
+
+	./single_impedace_element
+
 # ICE
