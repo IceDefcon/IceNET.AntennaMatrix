@@ -1,0 +1,3 @@
+gfortran -c Definitions.f90 Func.f90
+gfortran Definitions.o Func.o Main.f90 -o zdquad
+./zdquad

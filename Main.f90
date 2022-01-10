@@ -23,21 +23,21 @@ program main
 
 ! Assign weights and values for quadrature summation : 7 point
 
-    eta(1)=0.0
-    eta(2)=1./2.
-    eta(3)=1.
-    eta(4)=1./2.
-    eta(5)=0.
-    eta(6)=0.
-    eta(7)=1./3.
+    Xi(1)=0.0
+    Xi(2)=1./2.
+    Xi(3)=1.
+    Xi(4)=1./2.
+    Xi(5)=0.
+    Xi(6)=0.
+    Xi(7)=1./3.
 
-    neta(1)=0.0
-    neta(2)=0.0
-    neta(3)=0.0
-    neta(4)=1./2.
-    neta(5)=1.
-    neta(6)=1./2.
-    neta(7)=1./3.
+    Eta(1)=0.0
+    Eta(2)=0.0
+    Eta(3)=0.0
+    Eta(4)=1./2.
+    Eta(5)=1.
+    Eta(6)=1./2.
+    Eta(7)=1./3.
 
     w(1)=1./40.
     w(2)=1./15.

@@ -8,7 +8,7 @@ contains
 	
         complex G
 
-        real psi,rDashX,rDashY,rDashZ,R
+        real Zeta,rDashX,rDashY,rDashZ,R
 
         integer*2 i
 
@@ -16,11 +16,11 @@ contains
 
         do i=1,7
 
-            psi=1.-eta(i)-neta(i)
+            Zeta=1.-Xi(i)-Eta(i)
 
-            rDashX=Sx1*eta(i)+Sx2*neta(i)+Sx3*psi
-            rDashY=Sy1*eta(i)+Sy2*neta(i)+Sy3*psi
-            rDashZ=Sz1*eta(i)+Sz2*neta(i)+Sz3*psi
+            rDashX=Sx1*Xi(i)+Sx2*Eta(i)+Sx3*Zeta
+            rDashY=Sy1*Xi(i)+Sy2*Eta(i)+Sy3*Zeta
+            rDashZ=Sz1*Xi(i)+Sz2*Eta(i)+Sz3*Zeta
 		
             R=sqrt((rfpx-rDashX)*(rfpx-rDashX)+&
                 (rfpy-rDashY)*(rfpy-rDashY)+&
@@ -41,7 +41,7 @@ contains
 
         complex G
 
-        real psi,rDashX,rDashY,rDashZ,R
+        real Zeta,rDashX,rDashY,rDashZ,R
 
         integer*2 i
 
@@ -49,17 +49,17 @@ contains
 
         do i=1,7
 
-            psi=1.-eta(i)-neta(i)
+            Zeta=1.-Xi(i)-Eta(i)
 
-            rDashX=Sx1*eta(i)+Sx2*neta(i)+Sx3*psi
-            rDashY=Sy1*eta(i)+Sy2*neta(i)+Sy3*psi
-            rDashZ=Sz1*eta(i)+Sz2*neta(i)+Sz3*psi
+            rDashX=Sx1*Xi(i)+Sx2*Eta(i)+Sx3*Zeta
+            rDashY=Sy1*Xi(i)+Sy2*Eta(i)+Sy3*Zeta
+            rDashZ=Sz1*Xi(i)+Sz2*Eta(i)+Sz3*Zeta
 
             R=sqrt((rfpx-rDashX)*(rfpx-rDashX)+&
                 (rfpy-rDashY)*(rfpy-rDashY)+&
                 (rfpz-rDashZ)*(rfpz-rDashZ))
 
-            G=G+eta(i)*w(i)*cexp(cmplx(0.0,-k*R))/R
+            G=G+Xi(i)*w(i)*cexp(cmplx(0.0,-k*R))/R
 
         enddo
 
@@ -72,7 +72,7 @@ contains
 
         complex G
 
-        real psi,rDashX,rDashY,rDashZ,R
+        real Zeta,rDashX,rDashY,rDashZ,R
 
         integer*2 i
 
@@ -80,17 +80,17 @@ contains
 
         do i=1,7
 
-            psi=1.-eta(i)-neta(i)
+            Zeta=1.-Xi(i)-Eta(i)
 
-            rDashX=Sx1*eta(i)+Sx2*neta(i)+Sx3*psi
-            rDashY=Sy1*eta(i)+Sy2*neta(i)+Sy3*psi
-            rDashZ=Sz1*eta(i)+Sz2*neta(i)+Sz3*psi
+            rDashX=Sx1*Xi(i)+Sx2*Eta(i)+Sx3*Zeta
+            rDashY=Sy1*Xi(i)+Sy2*Eta(i)+Sy3*Zeta
+            rDashZ=Sz1*Xi(i)+Sz2*Eta(i)+Sz3*Zeta
 
             R=sqrt((rfpx-rDashX)*(rfpx-rDashX)+&
                 (rfpy-rDashY)*(rfpy-rDashY)+&
                 (rfpz-rDashZ)*(rfpz-rDashZ))
 
-            G=G+neta(i)*w(i)*cexp(cmplx(0.0,-k*R))/R
+            G=G+Eta(i)*w(i)*cexp(cmplx(0.0,-k*R))/R
 
         enddo
 
