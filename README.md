@@ -23,8 +23,8 @@ This code allow you to calculate single element of Coupling Impedane Matrix
 
 To compile:
 
-	gfortran -c definitions.f90 functions.f90
-	gfortran  definitions.o functions.o main.f90 -o single_impedace_element
+	gfortran -c Definitions.f90 Func.f90
+	gfortran  Definitions.o Func.o Main.f90 -o single_impedace_element
 
 To execute:
 
@@ -32,6 +32,6 @@ To execute:
 
 Execution should give one complex value from Entire Matrix for a choosen Antenna Surface Shape !!!
 
-	0.3182E-02 +j -0.2432E-02
+	Z13 =   0.2154E-02+j  0.7111E-01 ---> magnitude =  0.7114E-01
 
 # ICE
