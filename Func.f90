@@ -37,7 +37,7 @@ contains
 
     end function
 
-    real function vectorPotentialeta()
+    real function VectorPotentialXi()
 
         complex G
 
@@ -63,12 +63,12 @@ contains
 
         enddo
 
-        if(ir==1) vectorPotentialeta=real(G)
-        if(ir==2) vectorPotentialeta=Aimag(G)
+        if(ir==1) VectorPotentialXi=real(G)
+        if(ir==2) VectorPotentialXi=Aimag(G)
 
     end function
 
-    real function vectorPotentialneta()
+    real function VectorPotentialEta()
 
         complex G
 
@@ -94,8 +94,8 @@ contains
 
         enddo
 
-        if(ir==1) vectorPotentialneta=real(G)
-        if(ir==2) vectorPotentialneta=Aimag(G)
+        if(ir==1) VectorPotentialEta=real(G)
+        if(ir==2) VectorPotentialEta=Aimag(G)
 
     end function
 

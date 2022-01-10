@@ -109,10 +109,10 @@ program main
 !   and for each corner there are 3 Cartesian components
 
     ir=1 ! real vp
-    realVPeta=vectorPotentialeta(); realVPneta=vectorPotentialneta()
+    realVPeta=VectorPotentialXi(); realVPneta=VectorPotentialEta()
 
     ir=2 ! imag vp
-    aimagVPeta=vectorPotentialeta(); aimagVPneta=vectorPotentialneta()
+    aimagVPeta=VectorPotentialXi(); aimagVPneta=VectorPotentialEta()
 
     realVPx=sx1*realVPeta+sx2*realVPneta+sx3*(realSP13-realVPeta-realVPneta)
     realVPx13corner1=realVPx-sx1*realSP13
@@ -159,10 +159,10 @@ program main
 !   and for each corner there are 3 Cartesian components
 
     ir=1 ! real vp
-    realVPeta=vectorPotentialeta(); realVPneta=vectorPotentialneta()
+    realVPeta=VectorPotentialXi(); realVPneta=VectorPotentialEta()
 
     ir=2 ! imag vp
-    aimagVPeta=vectorPotentialeta(); aimagVPneta=vectorPotentialneta()
+    aimagVPeta=VectorPotentialXi(); aimagVPneta=VectorPotentialEta()
 
     realVPx=sx1*realVPeta+sx2*realVPneta+sx3*(realSP23-realVPeta-realVPneta)
     realVPx23corner1=realVPx-sx1*realSP23
@@ -218,10 +218,10 @@ program main
 !   and for each corner there are 3 Cartesian components
 
     ir=1 ! real vp
-    realVPeta=vectorPotentialeta(); realVPneta=vectorPotentialneta()
+    realVPeta=VectorPotentialXi(); realVPneta=VectorPotentialEta()
 
     ir=2 ! imag vp
-    aimagVPeta=vectorPotentialeta(); aimagVPneta=vectorPotentialneta()
+    aimagVPeta=VectorPotentialXi(); aimagVPneta=VectorPotentialEta()
 
     realVPx=sx1*realVPeta+sx2*realVPneta+sx3*(realSP14-realVPeta-realVPneta)
     realVPx14corner1=realVPx-sx1*realSP14
@@ -270,10 +270,10 @@ program main
 !   and for each corner there are 3 Cartesian components
 
     ir=1 ! real vp
-    realVPeta=vectorPotentialeta(); realVPneta=vectorPotentialneta()
+    realVPeta=VectorPotentialXi(); realVPneta=VectorPotentialEta()
 
     ir=2 ! imag vp
-    aimagVPeta=vectorPotentialeta(); aimagVPneta=vectorPotentialneta()
+    aimagVPeta=VectorPotentialXi(); aimagVPneta=VectorPotentialEta()
 
     realVPx=sx1*realVPeta+sx2*realVPneta+sx3*(realSP24-realVPeta-realVPneta)
     realVPx24corner1=realVPx-sx1*realSP24
