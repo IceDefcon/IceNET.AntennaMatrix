@@ -1,4 +1,4 @@
-# IceNet.AntennaImpedanceMatrix
+# IceNet.AntennaMatrix
 
 
 
