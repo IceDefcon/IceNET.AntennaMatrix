@@ -33,25 +33,25 @@ Clean:
 
 Execution ---> gives 19x19 Coupling Impedance Matrix 
 
-Matrix is designed for a Dipole Antenna constructed from 20 triangular patches
+The Matrix is designed for a Dipole Antenna composed of 20 triangular patches
 
 Coupling Impedance is calculated between the pair of the Test and Source triangular patches
 
 # ---===[ ANTENNA PHYSICS ]===---
 
-Dipole antena is constructed from 20 triangular patches, 10 squares (each contain two equal triangular patches)
+Dipole antena is constructed from 20 triangular patches ---> 10 squares (each contain two equal triangular patches)
 
-Each square has 0.05m x 0.05m dimentions ---> such that the overall antenna dimentions are ---> 50x5 cm 
+Each square has 0.05m x 0.05m dimentions ---> so that the overall dimensions of the antenna are ---> 50x5 cm 
 
-Electromagnetic Wave Frequency = 300Mhz
+Electromagnetic Wave Frequency = 300Mhz (Excitation 1Volt Sine Wave) 
 
-This gives wavelength of: 1m ---> so the half wave = 0.5m ( which is Antenna dimentions: Half wave dipole )  
+This gives wavelength of: 1m ---> Such that the half of the wave = 0.5m ( which is Antenna dimentions: Half wave dipole )  
 
 Next step is to:
 
  	1. Compute Exitation Matrix 
  	2. Act Exitation Matrix at Coupling Impedance Matrix 
- 	3. Generate Radiation Pattern (Donut for the half wave dipole)
+ 	3. Generate Radiation Pattern ---> The donut for the half wave dipole shape 
 
 
 # ICE
