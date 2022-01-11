@@ -1,8 +1,8 @@
 # IceNet.AntennaImpedanceMatrix
 
-This is 1.0.0 version of the source code
 
-Modified Source code allow to generate Coupling Impedance Matrix of the custom shape Antenna !!!
+
+The Source code allow to generate Coupling Impedance Matrix for the 20 triangles copper bar Antenna !!!
 
 Valid Matrix is used to approximate complex IQ samples in Electromagnetic Computation Process
 
@@ -19,19 +19,22 @@ Mixed Potentials are used to Approximate values for Electric currents induced on
 
 # ---===[ SOURCE CODE ]===---
 
-This code allow you to calculate single element of Coupling Impedane Matrix
+Compile:
 
-To compile:
+	./build
 
-	gfortran -c Definitions.f90 Func.f90
-	gfortran  Definitions.o Func.o Main.f90 -o single_impedace_element
+Execute:
 
-To execute:
+	./Impedance_Matrix
 
-	./single_impedace_element
+Clean:
 
-Execution should give one complex value from Entire Matrix for a choosen Antenna Surface Shape !!!
+	./clean
 
-	Z13 =   0.2154E-02+j  0.7111E-01 ---> magnitude =  0.7114E-01
+Execution ---> gives 19x19 Coupling Impedance Matrix 
+
+Matrix is designed for a Dipole Antenna constructed from 20 triangular patches
+
+Coupling Impedance is calculated between the pair of the Test and Source triangular patches
 
 # ICE

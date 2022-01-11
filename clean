@@ -1,0 +1,5 @@
+rm definitions.mod
+rm Definitions.o
+rm func.mod
+rm Func.o
+rm Impedance_Matrix
