@@ -41,7 +41,7 @@ Coupling Impedance is calculated between the pair of the Test and Source triangu
 
 Dipole antena is constructed from 20 triangular patches, 10 squares (each contain two equal triangular patches)
 
-Each square is 0.05m x 0.05 such that the antenna will have the dimentions ---> 50x5 cm 
+Each square has 0.05m x 0.05m dimentions ---> such that the overall antenna dimentions are ---> 50x5 cm 
 
 Electromagnetic Wave Frequency = 300Mhz
 
